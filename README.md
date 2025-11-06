@@ -9,6 +9,7 @@
 ## Étape: Configuration du Service REST avec Spring Data REST
 
 **Exposition Automatique des Repositories**
+
 <img width="699" height="385" alt="Capture d&#39;écran 2025-11-05 111852" src="https://github.com/user-attachments/assets/7a42cf73-315c-4866-817b-1e923e3388ab" />
 
 ---
@@ -29,11 +30,11 @@
 
 ## Étape : Configuration de la Pagination et du Tri
 
-**http://localhost:8082/api/comptes?page=0&size=2**\
+***http://localhost:8082/api/comptes?page=0&size=2\***
 
 <img width="331" height="494" alt="Capture d&#39;écran 2025-11-05 112746" src="https://github.com/user-attachments/assets/9bd6f01a-28aa-41c6-b91e-e4debac95edf" />
 
-**http://localhost:8082/api/comptes?page=0&size=2&sort=solde,desc**
+***http://localhost:8082/api/comptes?page=0&size=2&sort=solde,desc***
 
 <img width="336" height="488" alt="Capture d&#39;écran 2025-11-05 112816" src="https://github.com/user-attachments/assets/626c7608-5930-4bc9-8289-37d1db4037b0" />
 
@@ -41,7 +42,7 @@
 
 ## Étape : Gestion des Liens entre les Ressources Client et Compte
 
-**Utilisation des Liens REST pour Naviguer entre les Ressources**
+***Utilisation des Liens REST pour Naviguer entre les Ressources***
 
 ***http://localhost:8082/api/clients/1/comptes***
 
@@ -71,6 +72,7 @@
 ***http://localhost:8082/api/comptes/search/byType?t=COURANT***
 
 <img width="578" height="395" alt="image" src="https://github.com/user-attachments/assets/97308772-6088-4a00-b398-cca38c6b8a97" />
+
 
 
 
